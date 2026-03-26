@@ -1,0 +1,426 @@
+3/25/2026 1:10:16 PM: [Validation Schedule]
+3/25/2026 1:10:17 PM: GraphQL: firm (1319ms)
+
+firmId(4e3d44c1-ec50-40c3-8783-1983a905a8a9)
+
+                    query GetFirm($id: String) {
+                        firm(id: $id) { 
+                            professionalDisciplines {
+			                    id      
+			                    name
+			                    categories(masterId: $id) {
+				                    id
+                                    name
+                                    revitCategory
+			                    }
+                            }
+                        }
+                    }
+
+3/25/2026 1:10:17 PM: Work Results has null revitCategory
+3/25/2026 1:10:18 PM: RevitElements.Init
+3/25/2026 1:10:18 PM: === Specpoint categories that don't exist in Revit ===
+3/25/2026 1:10:18 PM: Administration = -2000151
+3/25/2026 1:10:18 PM: Wall Sweeps = -2000181
+3/25/2026 1:10:18 PM: === Revit categories that don't exist in Specpoint ===
+3/25/2026 1:10:18 PM: Abutments = -2006130
+3/25/2026 1:10:18 PM: Analysis Display Style = -2000304
+3/25/2026 1:10:18 PM: Analysis Results = -2000303
+3/25/2026 1:10:18 PM: Areas = -2003200
+3/25/2026 1:10:18 PM: Audio Visual Devices = -2001055
+3/25/2026 1:10:18 PM: Bearings = -2006138
+3/25/2026 1:10:18 PM: Bridge Cables = -2006133
+3/25/2026 1:10:18 PM: Bridge Decks = -2006135
+3/25/2026 1:10:18 PM: Bridge Framing = -2006241
+3/25/2026 1:10:18 PM: Cable Tray Fittings = -2008126
+3/25/2026 1:10:18 PM: Cable Tray Runs = -2008150
+3/25/2026 1:10:18 PM: Conduit Fittings = -2008128
+3/25/2026 1:10:18 PM: Conduit Runs = -2008149
+3/25/2026 1:10:18 PM: Coordination Model = -2000982
+3/25/2026 1:10:18 PM: Curtain Grids = -2000173
+3/25/2026 1:10:18 PM: Curtain Systems = -2000340
+3/25/2026 1:10:18 PM: Duct Insulations = -2008123
+3/25/2026 1:10:18 PM: Duct Linings = -2008124
+3/25/2026 1:10:18 PM: Duct Placeholders = -2008160
+3/25/2026 1:10:18 PM: Duct Systems = -2008015
+3/25/2026 1:10:18 PM: Electrical Circuits = -2008037
+3/25/2026 1:10:18 PM: Entourage = -2001370
+3/25/2026 1:10:18 PM: Expansion Joints = -2006271
+3/25/2026 1:10:18 PM: Filled region = -2000190
+3/25/2026 1:10:18 PM: Fire Protection = -2001049
+3/25/2026 1:10:18 PM: Food Service Equipment = -2001043
+3/25/2026 1:10:18 PM: Furniture = -2000080
+3/25/2026 1:10:18 PM: Furniture Systems = -2001100
+3/25/2026 1:10:18 PM: Hardscape = -2001036
+3/25/2026 1:10:18 PM: HVAC Zones = -2008107
+3/25/2026 1:10:18 PM: Imports in Families = -2000196
+3/25/2026 1:10:18 PM: Lines = -2000051
+3/25/2026 1:10:18 PM: Masking Region = -2000194
+3/25/2026 1:10:18 PM: Mass = -2003400
+3/25/2026 1:10:18 PM: Mechanical Control Devices = -2008232
+3/25/2026 1:10:18 PM: Medical Equipment = -2001046
+3/25/2026 1:10:18 PM: MEP Ancillary Framing = -2008231
+3/25/2026 1:10:18 PM: MEP Fabrication Containment = -2008212
+3/25/2026 1:10:18 PM: MEP Fabrication Ductwork = -2008193
+3/25/2026 1:10:18 PM: MEP Fabrication Ductwork Stiffeners = -2008228
+3/25/2026 1:10:18 PM: MEP Fabrication Hangers = -2008203
+3/25/2026 1:10:18 PM: MEP Fabrication Pipework = -2008208
+3/25/2026 1:10:18 PM: Nurse Call Devices = -2008077
+3/25/2026 1:10:18 PM: Parts = -2000269
+3/25/2026 1:10:18 PM: Piers = -2006131
+3/25/2026 1:10:18 PM: Pipe Insulations = -2008122
+3/25/2026 1:10:18 PM: Pipe Placeholders = -2008161
+3/25/2026 1:10:18 PM: Pipe Segments = -2008163
+3/25/2026 1:10:18 PM: Piping Systems = -2008043
+3/25/2026 1:10:18 PM: Plumbing Equipment = -2008234
+3/25/2026 1:10:18 PM: Point Clouds = -2010001
+3/25/2026 1:10:18 PM: Project Information = -2003101
+3/25/2026 1:10:18 PM: Raster Images = -2000560
+3/25/2026 1:10:18 PM: Roads = -2001220
+3/25/2026 1:10:18 PM: Rooms = -2000160
+3/25/2026 1:10:18 PM: Routing Preferences = -2008125
+3/25/2026 1:10:18 PM: Shaft Openings = -2000996
+3/25/2026 1:10:18 PM: Sheet Collections = -2001112
+3/25/2026 1:10:18 PM: Sheets = -2003100
+3/25/2026 1:10:18 PM: Signage = -2001058
+3/25/2026 1:10:18 PM: Spaces = -2003600
+3/25/2026 1:10:18 PM: Structural Area Reinforcement = -2009003
+3/25/2026 1:10:18 PM: Structural Beam Systems = -2001327
+3/25/2026 1:10:18 PM: Structural Connections = -2009030
+3/25/2026 1:10:18 PM: Structural Fabric Areas = -2009017
+3/25/2026 1:10:18 PM: Structural Fabric Reinforcement = -2009016
+3/25/2026 1:10:18 PM: Structural Path Reinforcement = -2009009
+3/25/2026 1:10:18 PM: Structural Rebar Couplers = -2009060
+3/25/2026 1:10:18 PM: Structural Tendons = -2006274
+3/25/2026 1:10:18 PM: Switch System = -2008101
+3/25/2026 1:10:18 PM: Temporary Structures = -2001039
+3/25/2026 1:10:18 PM: Topography = -2001340
+3/25/2026 1:10:18 PM: Toposolid = -2001079
+3/25/2026 1:10:18 PM: Vertical Circulation = -2001052
+3/25/2026 1:10:18 PM: Vibration Management = -2006261
+3/25/2026 1:10:19 PM: GraphQL: getProject (887ms)
+
+                    query GetProject($projectId: String) {
+                        getProject(projectId: $projectId) {
+                            id
+                            name
+                            groupName
+                            projectSettings {
+                              familyNumberFormat
+                              unitOfMeasure
+                            }
+                            lastUpdated 
+                        }
+                    }
+
+3/25/2026 1:10:19 PM: ModelValidationForm Last updated (local): 3/9/2026 5:10:53 PM
+3/25/2026 1:10:20 PM: GraphQL: getProjectElementNodes (0.02mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(b686f1e0-16ca-4b40-bf17-a5269f3a1cec)
+Count(2)
+TotalCount(2)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:10:56 PM: GraphQL: getProjectElementNodes (0.59mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(b686f1e0-16ca-4b40-bf17-a5269f3a1cec)
+Count(208)
+TotalCount(208)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:10:57 PM: GraphQL: getProjectElementNodes (0.02mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(a07137b5-d684-4ca1-af24-3ad9fdaf03f3)
+Count(0)
+TotalCount(0)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:12:46 PM: GraphQL: getProjectElementNodes (1.81mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(a07137b5-d684-4ca1-af24-3ad9fdaf03f3)
+Count(988)
+TotalCount(988)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:12:47 PM: GraphQL: getProjectElementNodes (0.02mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId()
+Count(2)
+TotalCount(2)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:12:48 PM: GraphQL: getProjectElementNodesByMultipleCategory (918ms)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+
+
+                    query GetProjectElementNodesByMultipleCategory($input: GetProjectElementNodesByCategoryIdsInput!) {
+                        getProjectElementNodesByMultipleCategory(input: $input) {
+	                        categoryToProjectElementNodes {
+                                categoryId
+                                categoryName
+                                revitCategory
+                                projectElementNodes {
+                                    id
+                                    treePath
+                                    isInProject
+                                    text
+                                    parentNodeId
+                                    projectId
+                                }
+                                count
+                            }
+                            totalCount
+	                    }
+                    }
+
+3/25/2026 1:12:48 PM: Specpoint category Administration does not exist in Revit
+3/25/2026 1:12:55 PM: GraphQL: getProjectElementNodes (0.13mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId()
+Count(1000)
+TotalCount(1000)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:13:23 PM: GraphQL: getProject (875ms)
+
+                    query GetProject($projectId: String) {
+                        getProject(projectId: $projectId) {
+                            id
+                            name
+                            groupName
+                            projectSettings {
+                              familyNumberFormat
+                              unitOfMeasure
+                            }
+                            lastUpdated 
+                        }
+                    }
+
+3/25/2026 1:13:23 PM: SetAssemblyCodeForm Last updated (local): 3/9/2026 5:10:53 PM
+3/25/2026 1:13:24 PM: GraphQL: getProjectElementNodes (0.01mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(71067c51-74e0-47aa-95f9-d42a4dd8d26d)
+Count(0)
+TotalCount(0)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:13:25 PM: GraphQL: getProjectElementNodes (0.03mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(71067c51-74e0-47aa-95f9-d42a4dd8d26d)
+Count(91)
+TotalCount(91)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:13:32 PM: GraphQL: getProject (908ms)
+
+                    query GetProject($projectId: String) {
+                        getProject(projectId: $projectId) {
+                            id
+                            name
+                            groupName
+                            projectSettings {
+                              familyNumberFormat
+                              unitOfMeasure
+                            }
+                            lastUpdated 
+                        }
+                    }
+
+3/25/2026 1:13:32 PM: SetAssemblyCodeForm Last updated (local): 3/9/2026 5:10:53 PM
+3/25/2026 1:13:33 PM: GraphQL: getProjectElementNodes (0.01mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(a07137b5-d684-4ca1-af24-3ad9fdaf03f3)
+Count(0)
+TotalCount(0)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:13:35 PM: GraphQL: getProjectElementNodes (0.04mins)
+
+projectId(83321dc5-57a8-4e26-83c0-0e10a3a40c45)
+categoryId(a07137b5-d684-4ca1-af24-3ad9fdaf03f3)
+Count(324)
+TotalCount(324)
+
+                    query GetProjectElementNodes($input: GetProjectElementNodesInput!) {
+                        getProjectElementNodes(input: $input) {
+	                        projectElementNodes {
+			                    id
+                                baseElementId
+			                    elementId
+			                    elementType
+			                    text
+			                    treePath
+			                    parentTreePath
+			                    parentNodeId
+			                    isLastSubAssembly
+                                isInProject
+		                    }
+		                    totalCount
+	                    }
+                    }
+
+3/25/2026 1:13:42 PM: CurrentAssembly Before. RevitTypeId(0c88ab75-a0bb-4c49-9f21-70e32c6d4d90-0002b63e) Category(Doors) Family(Doors_IntSgl) Type(1010x2110mm) Assembly(C1040.1056)
+3/25/2026 1:13:42 PM: CurrentAssembly After . RevitTypeId(0c88ab75-a0bb-4c49-9f21-70e32c6d4d90-0002b63e) Category(Doors) Family(Doors_IntSgl) Type(1010x2110mm) Assembly(C1040.1056 -> G2060.85)
