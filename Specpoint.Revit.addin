@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Specpoint.Revit2026</Name>
+    <Assembly>Specpoint.Revit2026.dll</Assembly>
+    <FullClassName>Specpoint.Revit2026.PluginApp</FullClassName>
+    <ClientId>7D713E44-340A-4F55-A9BB-8FD7B489CC9B</ClientId>
+    <VendorId>www.deltek.com</VendorId>
+    <VendorDescription>Deltek Systems, http://www.deltek.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

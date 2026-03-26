@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\AddNewKeynoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AssemblyCodeEditingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\CheckboxTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\FilterAssembliesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GetLastSubassembliesProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GetSpecpointFamiliesProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InsertSubassembliesProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\KeynotesManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\KeynotesManagerProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LinkProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ModelValidationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UpdateSpecpointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductSelectionProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ResetYourPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SelectProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SetAssemblyCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SetAssemblyCodeProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SetBIMElementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ViewSpecificationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
